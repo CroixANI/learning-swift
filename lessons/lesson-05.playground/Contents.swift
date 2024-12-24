@@ -62,13 +62,13 @@ for i in 1..<10 {
 
 print("=================== For Loop and Stride 1")
 
-for i in stride(from: 10, through: 1, by: 1) {
+for i in stride(from: 10, through: 1, by: -1) {
     print("For Loop: Stride - Include 10. Number is \(i)")
 }
 
 print("=================== For Loop and Stride 2")
 
-for i in stride(from: 10, to: 1, by: 1) {
+for i in stride(from: 1, to: 10, by: 1) {
     print("For Loop: Stride - Exclude 10. Number is \(i)")
 }
 
